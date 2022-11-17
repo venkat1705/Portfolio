@@ -19,7 +19,7 @@ export default function About({}: Props) {
     }}
     className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[10px] text-gray-500 text-xl'>About</h3>
-        <motion.div 
+        <motion.img 
         initial={{
             x:-200,
             opacity:0,
@@ -34,9 +34,9 @@ export default function About({}: Props) {
         transition={{
             duration:1.2,
         }}
-        >
-        <Image src={profile}  alt="" className='-mb-20 md:mb-0 w-56 flex-shrink-0 rounded-full object-cover xl:w-full xl:mt-10 md:w-full md:mt-20'></Image>
-        </motion.div>
+        src="https://avatars.githubusercontent.com/u/84761697?v=4"
+        className='md:w-56 h-56 rounded-full object-cover mt-20'
+        />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-xl font-semibold mb-30'>Little Background</h4>
             <p className='text-base'>
