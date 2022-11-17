@@ -62,7 +62,7 @@ export default function Skills({ directionLeft }: Props) {
             Hover over a skill
         </h3>
         <div >
-        <div className='relative grid grid-cols-4 gap-20 cursor-pointer'>
+        <div className='relative grid grid-cols-4 gap-20 cursor-pointer mt-10'>
         {
             imagesArray.map((item,i) => (
                 <div className='group flex'>
