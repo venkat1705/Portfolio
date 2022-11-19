@@ -40,7 +40,7 @@ export default function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-xl font-semibold mb-30'>Little Background</h4>
             <p className='text-base'>
-                I am a Full Stack Developer and a Competitive Programmer. I am currently pursuing my Bachelors in Computer Science and Engineering at KL University, Vijayawada. I am a self taught developer and I am always looking for new opportunities to learn and grow. I am a Web3 Enthusiast and I am always looking for new opportunities to learn and grow. I am a Blockchain Follower and I am always looking for new opportunities to learn and grow.
+                I am a Full Stack Developer and a Competitive Programmer. I am currently pursuing my Bachelors in Computer Science and Engineering at KL University, Vijayawada. I am a self taught developer and I am always looking for new opportunities to learn and grow. I am a Web3 Enthusiast and Blockchain Follower.I am very passionate about Blockchain Development and I love to create new things.
             </p>
         </div>
     </motion.div>
